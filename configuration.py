@@ -40,10 +40,10 @@ class Configuration:
           no global variables for hard coded values by design.
         """
         # set parameters
-        self.project_id = ""
+        self.project_id = "bigquery-388915"
         self.project_zone = "us-central1"
-        self.bucket_name = ""
-        self.knowledge_graph_api_key = ""
+        self.bucket_name = "abcdsdetector"
+        self.knowledge_graph_api_key = "AIzaSyDbFpV99At-mSm_rrA3BAIlJ6hJ_4pylnQ"
         self.bq_dataset_name = "abcd_detector_ds"
         self.bq_table_name = "abcd_assessments"
         self.assessment_file = ""
